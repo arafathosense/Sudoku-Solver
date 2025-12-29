@@ -2,6 +2,9 @@
 
 Instant Sudoku Solver is a personal computer-vision playground from tubakhxn that proves a lean laptop webcam plus a lightweight TensorFlow model can perform end-to-end puzzle solving in real time. It combines traditional image processing, a compact CNN trained on MNIST, and a classic depth-first search solver to deliver a quick demo-worthy experience without depending on any cloud APIs.
 
+<img width="1365" height="726" alt="image" src="https://github.com/user-attachments/assets/5853f0a6-da06-4264-a7c2-9edcb889fa8e" />
+
+
 ## How it works
 1. **Webcam capture** – Frames are resized, converted to grayscale, and binarized with adaptive thresholding.
 2. **Grid detection** – Canny edges plus contour analysis locate the largest square; a four-point perspective transform yields a frontal view of the puzzle.
